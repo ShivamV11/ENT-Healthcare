@@ -1,0 +1,50 @@
+/* styles.css */
+
+/* Define the container class */
+.container {
+    width: 80%;
+    margin: 0 auto;
+    background-color: #f0f7fd;
+    padding: 20px;
+
+    max-width: none;
+    width: auto;
+    padding: 0 50px
+}
+body {
+    font-family: Roboto,sans-serif;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0px;
+    color: #6e778c;
+    text-transform: none;
+    font-style: normal;
+    background-color: #f0f7fd;
+}
+
+/* Additional styling for the header */
+header {
+    background-color: #f0f7fd;
+    color: #200202;
+    padding: 10px;
+    text-align: center;
+}
+
+.nav {
+    
+    color: #031B4E; /* Font color */
+    font-family: 'Sora', sans-serif;
+    padding: 10px;
+    
+}
+
+/* Example styling for navigation links (adjust as needed) */
+.nav a {
+    
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+
+/* search logo css */
