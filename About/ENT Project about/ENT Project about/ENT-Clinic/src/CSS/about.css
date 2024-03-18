@@ -1,0 +1,265 @@
+.progress-bar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    overflow: hidden;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    background-color:  #031b4e;
+    transition: width .6s ease;
+
+}
+h1 {
+    padding: 23px;
+}
+
+img {
+    max-width: 100%;
+    /* Makes the image responsive */
+    height: 180px;
+    /* Keeps the aspect ratio of the image */
+    flex-shrink: 0;
+    /* Prevents the image from shrinking */
+}
+
+p {
+    padding: 20px;
+    flex: 1 1 300px;
+    /* Allows text to grow and shrink but with a base of 300px */
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .left {
+        flex-direction: column;
+        /* Stacks the elements vertically on smaller screens */
+    }
+
+    h1,
+    p {
+        padding: 10px;
+    }
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.img {
+    height: 550px;
+    width: 90%;
+    margin: 23px;
+    border-radius: 29px;
+}
+
+.doc {
+    height:766px;
+    border-radius: 26px;
+    box-shadow: 2px 3px 4px gray;
+    padding-bottom: 60px;
+}
+
+.doc-img {
+    height: 500px;
+    width: 260px;
+    padding: 10px;
+    padding-bottom: 20px;
+    width: 18%;
+    background-color: #031b4e;
+    border-radius: 50px;
+}
+
+.doc-text {
+    width: 82%;
+    height: 400px;
+
+}
+
+.card-container {
+    display: flex;
+    overflow-x: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.card {
+    width: 500px;
+    height: 300px;
+
+    flex: 0 0 auto;
+    /* This ensures the card does not grow or shrink */
+    width: 22rem;
+    margin: 10px;
+    padding: 41px;
+    border-radius: 30px;
+}
+
+.box {
+    margin: auto;
+    padding: 10px;
+    height: 300px;
+    width: 90%;
+}
+
+.box-2 {
+    margin: auto;
+    float: left;
+    width: 40%;
+    padding: 10px;
+    height: 280px;
+    /* Should be removed. Only for demonstration */
+}
+
+.box-1 {
+    float: left;
+    width: 60%;
+    padding: 10px;
+    height: 280px;
+    /* Should be removed. Only for demonstration */
+
+}
+
+.box {
+    .row:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+
+}
+.class-form{
+   
+    box-shadow: 3px 3px 4px gray;
+    border-radius: 36px;
+    padding: 23px;
+
+
+
+}
+
+
+/* Style for the widget title */
+.widget-title {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+/* Style for the list items */
+.pbmit-all-post-list {
+    list-style: none;
+    padding: 0;
+}
+
+.pbmit-all-post-list li {
+    margin-bottom: 8px;
+}
+
+/* Style for the links */
+.pbmit-all-post-list a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.pbmit-all-post-list a:hover {
+    color: #3498db;
+}
+
+/* Responsive styles */
+/* @media only screen and (max-width: 768px) {
+    .pbminfotech-sidebar {
+        width: 100%;
+    }
+} */
+/* Add this to your stylesheet or in a style tag in the head of your HTML */
+
+/* Style for the widget title */
+.widget-title {
+    border-radius: 29px;
+    margin-top: 34px;
+    background-color: #3498db;
+    color: #fff;
+    padding: 15px;
+    margin-bottom: 15px;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+/* Style for the list items */
+.pbmit-all-post-list {
+    list-style: none;
+    padding: 0;
+}
+
+.pbmit-all-post-list li {
+    margin-bottom: 10px;
+    
+}
+
+/* Style for the links */
+.pbmit-all-post-list a {
+    text-decoration: none;
+    color: #555;
+    
+    font-weight: bold;
+    transition: color 0.3s;
+    display: block;
+    padding: 15px;
+    border-radius: 23px;
+    box-shadow: 3px 4px 6px gray;
+}
+
+.pbmit-all-post-list a:hover {
+    color:white;
+    background-color:black;
+}
+.pbminfotech-sidebar {
+        width: 100%;
+    }
+/* Responsive styles  */
+@media only screen and (max-width: 768px) {
+   
+}
+.Imgrit{
+    padding: 3px;
+}
+
+        /* Additional CSS styles for the form */
+        .class-form {
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        /* Style for the input fields */
+        .form-control {
+            border: none;
+            border-bottom: 2px solid #3498db;
+            border-radius: 0;
+            margin-bottom: 15px;
+            transition: border-bottom-color 0.3s;
+        }
+
+        .form-control:focus {
+            border-bottom-color: #2c3e50;
+            outline: none;
+        }
+
+        /* Style for the button */
+        .btn-primary {
+            background-color: #3498db;
+            color: #fff;
+            border: none;
+            border-radius: 26px;
+            padding: 10px 20px;
+            cursor: pointer;
+        }
+
+        .btn-primary:hover {
+            background-color: #2c3e50;
+        }
